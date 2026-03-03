@@ -1,0 +1,16 @@
+{
+  "name": "rentease",
+  "version": "1.0.0",
+  "description": "RentEase - Furniture & Appliance Rental Platform",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "npm run server & npm run client",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["rental", "furniture", "appliance", "mern"],
+  "author": "",
+  "license": "ISC"
+}
